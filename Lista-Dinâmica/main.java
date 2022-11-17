@@ -183,7 +183,7 @@ public class main {
                     menor = L.elem[i];
                 }
             }
-            System.out.println("O Maior elemento da lista é"+maior+"\nO menor elemento da lista é"+menor);
+            System.out.println("O Maior elemento da lista é "+maior+"\nO menor elemento da lista é "+menor);
         
         }
     }

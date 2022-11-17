@@ -166,5 +166,23 @@ public class main {
         
     
     }
+    public static void maiorMenor(Lista L){
+        if(L.n == 0){
+            System.out.println("Lista Vazia");
+       }else{
+            int maior = L.elem[0];
+            int menor = L.elem[0];
+            for(int i = 0; i < L.n; i++){
+                if(L.elen[i] > maior){
+                    maior = L.elem[i];
+                }
+                if(L.elem[i] < menor){
+                    menor = L.elem[i];
+                }
+            }
+            System.out.println("O Maior elemento da lista é"+maior+"\nO menor elemento da lista é"+menor);
+        
+        }
+    }
 }
 

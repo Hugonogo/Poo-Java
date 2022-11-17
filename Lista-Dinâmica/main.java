@@ -38,7 +38,7 @@ public class main {
                 
                
                 while (true) {                
-                    System.out.print("O que você deseja?\n1-(Adicionar um elemento à lista)\n2-(Excluir um elemento da lista)\n3-(Buscar na lista)\n4-(Soma e média dos elementos da lista)\n5-(Sair)\n-->");
+                    System.out.print("O que você deseja?\n1-(Adicionar um elemento à lista)\n2-(Excluir um elemento da lista)\n3-(Buscar na lista)\n4-(Soma e média dos elementos da lista)\n5-(Buscar o maior e o menor elemento da lista)\n6(Bair)\n-->");
                     op = input.nextInt();
                     if (op == 1) {
                         System.out.print("Digite o Valor que deseja adicionar e sua posição respectivamente:");
@@ -83,6 +83,9 @@ public class main {
                         media(l1);
                     }
                     if (op == 5) {
+                        maiorMenor(l1);
+                    }
+                    if (op == 6){
                         break;
                     }
                 }

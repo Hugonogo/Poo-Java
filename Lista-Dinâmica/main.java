@@ -176,7 +176,7 @@ public class main {
             int maior = L.elem[0];
             int menor = L.elem[0];
             for(int i = 0; i < L.n; i++){
-                if(L.elen[i] > maior){
+                if(L.elem[i] > maior){
                     maior = L.elem[i];
                 }
                 if(L.elem[i] < menor){
